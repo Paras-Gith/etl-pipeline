@@ -1,0 +1,15 @@
+{
+    "orders": {
+        "required_columns" : ["order_id", "customer_id", "amount", "date"],
+        "dataType":{
+            "order_id" : "int",
+            "customer_id" : "int",
+            "amount" : "float",
+            "date" : "datetime"
+        },
+        "contraints" : {
+            "amount" : {"min": 0},
+            "order_id": {"unique": true}
+        }
+    }
+}
