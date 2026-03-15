@@ -37,3 +37,6 @@ etl_pipeline/
 - Retry logic with exponential backoff
 - Automated daily scheduling
 - HTML report generation
+
+# Screenshots
+
